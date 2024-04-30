@@ -1,9 +1,9 @@
 import Post from "./_components/post/page";
 async function getPost(id) {
-  //   console.log(id);
+  // console.log(id);
   const res = await fetch(`http://localhost:3000/api/posts/${id}`);
   const data = await res.json();
-  //   console.log(data.data);
+  // console.log(data.data);
   return data.data;
 }
 

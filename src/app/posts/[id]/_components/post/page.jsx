@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 
 const page = ({ post }) => {
@@ -7,6 +6,7 @@ const page = ({ post }) => {
       <h1>
         {post.id} {post.title}
       </h1>
+      <p>{post.body}</p>
     </div>
   );
 };

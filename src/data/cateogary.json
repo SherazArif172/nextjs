@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Political Analysis",
+    "description": "In-depth analysis of political events and policies around the world.",
+    "category": "Politics"
+  },
+  {
+    "id": 2,
+    "title": "Football Highlights",
+    "description": "Exciting highlights from the latest football matches.",
+    "category": "Sports"
+  },
+  {
+    "id": 3,
+    "title": "Agricultural Techniques",
+    "description": "Modern techniques and innovations in farming practices.",
+    "category": "Farmers"
+  }
+]

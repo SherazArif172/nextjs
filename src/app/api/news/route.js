@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   const res = await fetch(
-    "https://newsapi.org/v2/everything?q=tesla&from=2024-03-30&sortBy=publishedAt&apiKey=9a39099f7556463b89cd55a0792a6e2b"
+    "https://gnews.io/api/v4/search?q=example&apikey=bcb532120f0ae80449d4eb7b8d8ce40f"
   );
   const data = await res.json();
   return NextResponse.json({ data });

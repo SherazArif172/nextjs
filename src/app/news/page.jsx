@@ -10,11 +10,7 @@ export async function newsData() {
 const page = async () => {
   const singlenews = await newsData();
   // console.log(singlenews);
-  return (
-    <div>
-      <News singlenews={singlenews} />
-    </div>
-  );
+  return <div>{<News singlenews={singlenews} />}</div>;
 };
 
 export default page;

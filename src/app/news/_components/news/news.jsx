@@ -6,10 +6,9 @@ const news = ({ singlenews }) => {
     <div>
       {singlenews.map((news) => (
         <div key={news.id}>
-          <h1>{news.author}</h1>
           <h2>{news.title}</h2>
-          <h3>{news.description}</h3>
-          <h4>{news.content}</h4>
+          {/* <h3>{news.description}</h3> */}
+
           {/* <Image src={news.urlToImage} /> */}
         </div>
       ))}
